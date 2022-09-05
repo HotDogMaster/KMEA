@@ -34,10 +34,21 @@ $('.center').slick({
         arrows: true,
         centerMode: true,
         centerPadding: '40px',
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 538,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
         slidesToShow: 1,
         slidesToScroll: 1
       }
     }
+   
   ]
 });
 
