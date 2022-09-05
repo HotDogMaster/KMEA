@@ -98,6 +98,9 @@
 .pro_txt{
     line-height: 1.5em;
 }
+#panel1-1{
+    display: block;
+}
 .item_list li a:hover{
     color: #333;
     font-weight: 700;

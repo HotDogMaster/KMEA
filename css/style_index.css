@@ -45,7 +45,6 @@ section{
 }
 
 #sect2 .sect2_1 .product_img{
-    padding-left: 100px;
     width:50%;
     box-sizing:border-box;
     text-align:center;
@@ -68,13 +67,13 @@ section{
     height: 227px;
     text-align: center;
 }
-#sect3 .recruit::after{
+#sect3 .recruit::after {
     content: '';
     background-color: #fff;
     width: 1px;
-    height: 200px;
+    height: 180px;
     position: relative;
-    transform: translateX(2.5vw);
+    transform: translate(2.5vw, 1.5vh);
 }
 #sect3 .recruit.flex{
    justify-content: space-between;

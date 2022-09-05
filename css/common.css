@@ -598,9 +598,9 @@ footer{
   display:block; 
   width:50px;
   height:50px;
-  background:#fff;
+  background:#e60000;
   text-align: center;
-  color: #333;
+  color: #fff;
   border: 1px solid #eee;
 }
 .quick_btn p span{
@@ -642,11 +642,15 @@ footer{
   height: 35px;
   transform: translatey(7.5px);
 }
-.btn2 a, .btn3 a{
+.btn1 a,.btn2 a, .btn3 a{
   display: block;
   transform: translateY(5px);
   font-size: 14px;
   font-weight: 900;
+}
+.btn1 a{
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 /* quick end */
