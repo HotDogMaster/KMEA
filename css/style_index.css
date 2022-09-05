@@ -38,8 +38,14 @@ section{
 #sect2 .sect2_1 h4{
     margin: 10% 0;
 }
+#sect2 .sect2_1 .product_des{
+    width:50%
+}
+
 #sect2 .sect2_1 .product_img{
     padding-left: 100px;
+    width:50%;
+        box-sizing:border-box;
 }
 /* section2 end */
 
