@@ -1,2 +1,0 @@
-# MyTestingSite
-The Test
