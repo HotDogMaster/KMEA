@@ -648,6 +648,7 @@ footer{
   font-size: 14px;
   font-weight: 900;
 }
+
 /* quick end */
 @media all and (max-width: 1295px) {
   #footer .inner .foot .foot_bot .copy {

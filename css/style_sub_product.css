@@ -71,7 +71,6 @@
 .item_list a{
     display: block;
     padding: 20px;
-    margin-left: 10px;
     border-bottom: 1px dotted #ddd;
 }
 .pro_menu li.on{
@@ -106,6 +105,9 @@
 @media all and (max-width:768px) {
     .sub_main .search{
         width: 70%;
+    }
+    .item_list a{
+        padding-left: 0;
     }
 }
 @media all and (max-width:509px) {
