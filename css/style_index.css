@@ -367,9 +367,6 @@ section{
     #sect6 .ascenter {
         margin-bottom: 10px;
     }
-    #sect6 .ascenter p {
-        margin: 30px auto;
-    }
 }
 @media all and (max-width: 768px){
     #sect1 .slick-prev.slick-arrow::before,#sect1 .slick-next.slick-arrow::before{
@@ -431,13 +428,10 @@ section{
 }
 @media all and (max-width: 630px){
     #sect6 .ascenter .flex .flex p{
-        width: 300px;
+        width: 150px;
     }
 }
 @media all and (max-width: 533px){
-    #sect6 .ascenter .flex .flex p{
-        width: 250px;
-    }
     #popupDiv {
         max-width: 50%;
     }
