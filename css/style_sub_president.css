@@ -1,0 +1,49 @@
+#sect1 {
+    margin: 50px;
+    color: #333;
+}
+#sect1 .catch{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.15em;
+}
+#sect1 .sect1_top{
+    justify-content: space-around;
+    position: relative;
+}
+#sect1 .sect1_top .ceo_img img{
+    width: 100%;
+}
+#sect1 .sect1_top .ceo_img:before{
+    margin: 0;
+    padding: 0;
+    content: '';
+    width: 200vw;
+    height: 6px;
+    bottom: 50px;
+    left: -100%;
+    position: absolute;
+    background-color: #e60000;
+    z-index: -1;
+}
+#sect1 .sect1_top p{
+    padding: 30px;
+    line-height: 2em;
+    font-weight: 700;
+}
+#sect1 .sect1_bot p{
+    margin: 50px 0;
+    font-weight: 400;
+}
+#sect1 .sect1_bot p span{
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+@media all and (max-width:768px){
+    #sect1 {
+        margin: 5px;
+    }
+    #sect1 .sect1_bot p{
+        margin: 20px 0;
+    }
+}

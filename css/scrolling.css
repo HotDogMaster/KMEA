@@ -1,0 +1,74 @@
+
+body { 
+  margin:0;
+  padding:0;
+  position: relative; 
+  width:100%;
+
+  }
+
+.our-work-wrapper{display: flex;flex-direction: row;
+			        flex-wrap: wrap;position: relative;
+					padding: 100px;
+ }		
+.our-work-wrapper .image-section{position: relative;width:50%;}
+.our-work-wrapper .image-section img {
+		    width: 100%;
+}
+.our-work-wrapper .text-wrapper {
+		    width: 50%;padding:100px;box-sizing: border-box;
+				position: relative;
+}
+/*****fourth Section Circle Shape*******/
+
+#sect2{
+transform: translate(0,50%);
+opacity: 0;
+transition: 1s transform, 2s opacity;
+}
+#sect2.show-animation{
+transform: translate(0,0);
+opacity: 1;
+}
+/* asddas */
+#sect3{
+transform: translate(0,50%);
+opacity: 0;
+transition: 1s transform, 2s opacity;
+}
+#sect3.show-animation{
+transform: translate(0,0);
+opacity: 1;
+}
+
+#sect4{
+	transform: translate(0,50%);
+	opacity: 0;
+	transition: 1s transform, 2s opacity;
+	}
+	#sect4.show-animation{
+	transform: translate(0,0);
+	opacity: 1;
+	}
+
+	#sect5{
+		transform: translate(0,50%);
+		opacity: 0;
+		transition: 1s transform, 2s opacity;
+		}
+		#sect5.show-animation{
+		transform: translate(0,0);
+		opacity: 1;
+		}
+	
+	#sect6{
+		transform: translate(0,50%);
+		opacity: 0;
+		transition: 1s transform, 2s opacity;
+		}
+		#sect6.show-animation{
+		transform: translate(0,0);
+		opacity: 1;
+		}
+	
+		
