@@ -8,12 +8,14 @@ section{
     width: 100%;
 }
 /* section1 end */
+#sect2 .panels.sect2_1{
+    width:calc(100% - 200px);   
+}
 #sect2 .product_menu{
     font-size: 1.2rem;
     line-height: 3em;
-}
-#sect2 .product_menu{
     text-align: right;
+    width:170px;
 }
 #sect2 .on{
     font-size: 1.1em;
@@ -45,7 +47,8 @@ section{
 #sect2 .sect2_1 .product_img{
     padding-left: 100px;
     width:50%;
-        box-sizing:border-box;
+    box-sizing:border-box;
+    text-align:center;
 }
 /* section2 end */
 
