@@ -99,16 +99,35 @@
               <div class="nav_btn">
                 <ul class="flex">
                   <li  class="login">
-                <a href="javascrpit:void(0)"><span>로그인</span></a>
+                <a href="javascrpit:void(0)" class="login_btn"><span>로그인</span></a>
+                <div class="backg">
+                  <form class="login_form flex">
+                    <input type="text" required  autocomplete="on" placeholder="아이디를 입력하세요">
+                    <input type="password" required  autocomplete="on" placeholder="비밀번호를 입력하세요">
+                    <input type="submit" class="submit"  placeholder="LOG IN" value="로그인">
+                    <div class="sign flex">
+                      <p><a href="javascrpit:void(0)">아이디/비밀번호 찾기</a></p>
+                      <p><a href="javascrpit:void(0)">회원 가입</a></p>
+                    </div>
+                  </form>
               </li>
               <li class="language">
                 <a href="javascrpit:void(0)" ><img src="./img/clarity_world-line.svg" alt="언어선택"></a>
+                <div class="lang_menu">
+                  <p><a href="javascrpit:void(0)">KOR</a></p>
+                  <p><a href="javascrpit:void(0)">ENG</a></p>
+                  <p><a href="javascrpit:void(0)">JPN</a></p>
+                </div>
               </li>
               <li  class="search">
                 <button><img src="./img/search_off.svg" alt="검색"></button>
                 <div id="pop_up">
                   <form class="pop_search">
-                  <input type="text" name="focus" required class="search-box" placeholder="검색어를 입력하세요">
+                    <a href="javascrpit:void(0)" class="x_btn"><img src="./img/search_on.svg" alt="검색창 끄기"></a>
+                  <input type="text" name="focus" required class="search-box" autocomplete="on" placeholder="검색어를 입력하세요">
+                  <div class="recent flex">
+                    <p>최근 검색어</p><p class="flex"><a href="javascrpit:void(0)"> PCB</a> <a href="javascrpit:void(0)">반도체패키징산업전</a> <a href="javascrpit:void(0)">e-factory</a> </p>
+                  </div>
                   </form>
                 </div>
               </li>

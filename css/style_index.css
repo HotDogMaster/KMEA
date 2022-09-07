@@ -52,9 +52,12 @@ section{
 /* section2 end */
 
 #sect3{
-    background-color: #218DCF;
+    background-image: url(../img/milad-fakurian-E8Ufcyxz514-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10vh 0;
     position: relative;
+    box-shadow: 0 0 10px #218DCF;
 }
 #sect3 .inner{
     max-width: 1100px;
@@ -136,7 +139,10 @@ section{
 /* section4 end */
 #sect5{
     padding: 50px 0;
-    background-color: #C11B2A;
+    box-shadow: 0 0 10px #C11B2A;
+    background-image: url(../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #sect5 h3{
     color: #fff;
