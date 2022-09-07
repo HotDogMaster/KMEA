@@ -304,12 +304,21 @@ section{
         text-decoration-thickness: 3px ;
         text-underline-position: under;
     }
+    #sect2 .product_menu{
+        width:100%;
+    }
     #sect2 .on::after {
         width: 10px;
         height: 10px;
         bottom: 8px;
         left: -12px;
         border-radius: 50%;
+    }
+    #sect2 .sect2_1 .product_img, #sect2 .sect2_1 .product_des, #sect2 .panels.sect2_1{
+        width:100%;
+    }
+    .panel .flex{
+        flex-wrap: nowrap;
     }
     .tabs{
         display: flex;

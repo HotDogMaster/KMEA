@@ -113,6 +113,9 @@ details {
 summary {
   display: list-item;
 }
+.red{
+  color: #e60000;
+}
 #wrap{
   position: relative;
   word-break: keep-all;
@@ -267,14 +270,17 @@ button{
   color: #fff;
   font-size: 1rem;
 }
+#header .backg .sign, #header .backg .sign a {
+  margin: 0;
+}
+#header .backg .sign a{
+  color: #fff;
+  font-size: 0.875rem;
+}
 #header .nav_btn .mo_nav_menu{
   display: none;
 }
-#header .nav_btn .mo_nav_menu img{
-  width: 30px;
-  height: 30px;
-}
-#header .nav_btn .search img{
+#header .nav_btn .search img, #header .nav_btn .mo_nav_menu img, #header .nav_btn .language img{
   width: 30px;
   height: 30px;
 }
@@ -327,6 +333,97 @@ box-shadow: 0 0 1px 1px #111;
 .fa-solid, .fas {
   vertical-align: middle;
 }
+#pop_up .pop_search .x_btn{
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+#header.scroll #pop_up .pop_search .x_btn{
+  top: 0;
+}
+#header .nav_btn .recent{
+  display: none;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.125em;
+  width: 500px;
+}
+#header.scroll .nav_btn .recent{
+  bottom: 60px;
+}
+#header .nav_btn .recent p a{
+  font-size: 12px;
+}
+#header .nav_btn .recent p a:last-child{
+  margin-right: 0;
+}
+#header .backg{
+  background-color: #e60000;
+  height: 0;
+  width: 100vw;
+  position: absolute;
+  top: 105px;
+  left: 0;
+}
+#header.scroll .backg{
+  top: 54px;
+}
+#header .login_form{
+  display: none;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 2rem;
+  margin-top: 50px;
+}
+#header .login_form input{
+  line-height: 2rem;
+  padding: 5px;
+  width: 300px;
+  border: none;
+ border-bottom: 2px solid #fff;
+ margin: 10px;
+ color: #fff;
+}
+#header .login_form .submit{
+  text-align: center;
+  border-radius: 50px;
+  background: #fff;
+  color: #333;
+}
+#header .login_form input::placeholder{
+  color: #fff;
+}
+#header .language{
+  position: relative;
+}
+#header .language .lang_menu a:hover{
+  border-bottom: 2px solid #333;
+}
+#header .language .lang_menu a{
+  font-size: 14px;
+}
+#header .language .lang_menu{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 10px 0;
+  padding-left: 30px;
+  top: 105px;
+  left: -30px;
+  line-height: 2em;
+}
+#header.scroll .language .lang_menu{
+  top: 54px;
+}
 #header.scroll .logo{
  line-height: 45px !important;
 }
@@ -362,7 +459,6 @@ top:50px;
   top:0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .nav_pop #nav{
   width:300px;height:100%;
  background:#fff;
@@ -652,7 +748,6 @@ footer{
   font-size: 1.5em;
   line-height: 1.5em;
 }
-
 /* quick end */
 @media all and (max-width: 1295px) {
   #footer .inner .foot .foot_bot .copy {
@@ -702,14 +797,19 @@ h3:after{
 }
 #header .nav_btn .mo_nav_menu {
     display: block;
+    margin-top: 3px;
 }
 }
 @media all and (max-width: 768px){
-  #header .language, #header .login{
-      display: none;
-  }
   #header .nav_pop{
       display: block;
+  }
+  #header .nav_btn .search img, #header .nav_btn .mo_nav_menu img, #header .nav_btn .language img{
+    width: 25px;
+    height: 25px;
+  }
+  #header .nav_btn .login{
+      display: none;
   }
   .lnb .flex{
     justify-content: flex-end;
@@ -730,6 +830,10 @@ h1 {
 }
 }
 @media all and (max-width: 547px){
+  #header .nav_btn .search img, #header .nav_btn .mo_nav_menu img, #header .nav_btn .language img{
+    width: 20px;
+    height: 20px;
+  }
   #footer .foot_top {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -738,6 +842,9 @@ h1 {
 @media all and (max-width: 490px){
   #header .logo img {
       width: 80%;
+  }  #header .nav_btn .recent{
+    width: 300px;
+    font-size: 12px;
   }
   .search-box {
       width: 300px;
