@@ -33,8 +33,9 @@
 }
 #sect1 .sect1_bot p{
     margin: 50px 0;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
+    line-height: 1.5em;
 }
 #sect1 .sect1_bot p span{
     font-weight: 700;

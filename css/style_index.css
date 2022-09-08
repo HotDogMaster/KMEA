@@ -52,9 +52,7 @@ section{
 /* section2 end */
 
 #sect3{
-    background-image: url(../img/milad-fakurian-E8Ufcyxz514-unsplash.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #218DCF;
     padding: 10vh 0;
     position: relative;
     box-shadow: 0 0 10px #218DCF;
@@ -140,9 +138,7 @@ section{
 #sect5{
     padding: 50px 0;
     box-shadow: 0 0 10px #C11B2A;
-    background-image: url(../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #C11B2A;
 }
 #sect5 h3{
     color: #fff;
@@ -390,6 +386,9 @@ section{
     #sect6 .ascenter {
         margin-bottom: 10px;
     }
+    #sect6 .ascenter .flex .flex p {
+    width: 500px;
+    }
 }
 @media all and (max-width: 768px){
     #sect1 .slick-prev.slick-arrow::before,#sect1 .slick-next.slick-arrow::before{
@@ -436,9 +435,6 @@ section{
     #sect6 .ascenter .flex .flex{
         flex-wrap: nowrap;
     }
-    #sect6 .ascenter .flex .flex p{
-        width: 500px;
-    }
     #sect6 .news{
         margin-top: 20px;
     }
@@ -465,6 +461,10 @@ section{
     }
     #sect6 .ascenter .flex .flex p{
         width: 100%;
+    }
+    #sect4 .promo_center>div {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 @media all and (max-width: 425px){

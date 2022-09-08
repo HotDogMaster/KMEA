@@ -112,6 +112,12 @@
     .item_list a{
         padding-left: 0;
     }
+    .edge_computing h2 {
+        font-size: 36px;
+    }
+    .sub_main {
+        margin: 5vh 0;
+    }
 }
 @media all and (max-width:509px) {
     .pro_menu li{
