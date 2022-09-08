@@ -1,0 +1,44 @@
+h5{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+.edu_menu{
+    margin: 50px 0;
+}
+.edu_menu .flex{
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #eee;
+    border-radius: 15px 15px 0 0;
+}
+.edu_menu a{
+    display: block;
+    background-color: #e60000;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: right;
+}
+.edu_menu p{
+   width: 1000px;
+    vertical-align: middle;
+    line-height: 1.5em;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.edu_menu p span {
+    font-weight: 700;
+    line-height: 3em;
+}
+.edu_menu .img img{
+    width: 350px ;
+    border-radius: 15px 15px 0 0;
+}
+@media all and (max-width:768px) {
+    .edu_menu .flex{
+        flex-wrap: wrap;
+    }
+    .edu_menu .img img{
+        width: 300px ;
+    }
+}

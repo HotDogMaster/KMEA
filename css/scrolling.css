@@ -22,7 +22,7 @@ body {
 /*****fourth Section Circle Shape*******/
 
 #sect2{
-transform: translate(0,50%);
+transform: translate(0,10%);
 opacity: 0;
 transition: 1s transform, 2s opacity;
 }
@@ -32,7 +32,7 @@ opacity: 1;
 }
 /* asddas */
 #sect3{
-transform: translate(0,50%);
+transform: translate(0,10%);
 opacity: 0;
 transition: 1s transform, 2s opacity;
 }
@@ -42,7 +42,7 @@ opacity: 1;
 }
 
 #sect4{
-	transform: translate(0,50%);
+	transform: translate(0,10%);
 	opacity: 0;
 	transition: 1s transform, 2s opacity;
 	}
@@ -52,7 +52,7 @@ opacity: 1;
 	}
 
 	#sect5{
-		transform: translate(0,50%);
+		transform: translate(0,10%);
 		opacity: 0;
 		transition: 1s transform, 2s opacity;
 		}
@@ -62,7 +62,7 @@ opacity: 1;
 		}
 	
 	#sect6{
-		transform: translate(0,50%);
+		transform: translate(0,10%);
 		opacity: 0;
 		transition: 1s transform, 2s opacity;
 		}
