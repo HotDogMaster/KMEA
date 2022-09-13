@@ -854,6 +854,9 @@ h1 {
   #header .nav_btn button, #header .nav_btn a {
     margin-right: 10px;
 }
+#header .language .lang_menu {
+  padding-right: 20px;
+}
   #footer{
       position: relative;
   }
