@@ -1,5 +1,5 @@
 #sect1 {
-    margin: 50px;
+    margin: 200px 0;
     color: #333;
 }
 #sect1 .catch{
@@ -12,7 +12,7 @@
     position: relative;
 }
 #sect1 .sect1_top .ceo_img img{
-    width: 100%;
+    width: 130%;
 }
 #sect1 .sect1_top .ceo_img:before{
     margin: 0;
@@ -30,22 +30,32 @@
     padding: 30px;
     line-height: 2em;
     font-weight: 700;
+    font-size: 1.3rem;
 }
 #sect1 .sect1_bot p{
     margin: 50px 0;
     font-weight: 300;
     text-align: center;
     line-height: 1.5em;
+    font-size: 1.3rem;
 }
 #sect1 .sect1_bot p span{
     font-weight: 700;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
 }
 @media all and (max-width:768px){
     #sect1 {
-        margin: 5px;
+        margin: 100px 0;
     }
     #sect1 .sect1_bot p{
-        margin: 20px 0;
+        margin: 50px 0;
+        
+    }
+    #sect1 .sect1_top p {
+        padding: 10px;
+        font-size: 1em;
+    }
+    #sect1 .sect1_bot p, #sect1 .sect1_bot p span {
+        font-size: 1rem;
     }
 }

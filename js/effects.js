@@ -68,6 +68,13 @@ $('#pop_up .close').click(function(){
 
 var login_stat = 0
 $('.login .login_btn').click(function(){
+  $('.lang_menu').hide();
+  $('#pop_up .pop_search').stop().animate({height: 0})
+  $('#pop_up .search-box').hide();
+  $('#pop_up .recent').hide();
+  $('.x_btn').css('display','none');
+  lang_stat = 0;
+  nav_stat = 0;
   if(login_stat == 0) {
     $('#header .backg').stop().animate({height: 350});
     $('#header .login_form').stop().show();
@@ -80,6 +87,14 @@ $('.login .login_btn').click(function(){
 });
 var lang_stat = 0
 $('.language img').click(function(){
+  $('#pop_up .pop_search').stop().animate({height: 0})
+  $('#pop_up .search-box').hide();
+  $('#pop_up .recent').hide();
+  $('#header .backg').stop().animate({height: 0});
+  $('#header .login_form').hide();
+  $('.x_btn').css('display','none');
+  login_stat = 0;
+  nav_stat = 0;
   if(lang_stat == 0) {
     $('#header .language .lang_menu').stop().show();
     lang_stat = 1;
@@ -90,6 +105,11 @@ $('.language img').click(function(){
 });
 var nav_stat = 0
 $('.search img').click(function(){
+  $('.lang_menu').hide();
+  $('#header .backg').stop().animate({height: 0});
+  $('#header .login_form').hide();
+  login_stat = 0;
+  lang_stat = 0;
     if(nav_stat == 0) {
         $('#pop_up .pop_search').stop().animate({height: 250});
         $('#pop_up .search-box').stop().fadeIn(200);

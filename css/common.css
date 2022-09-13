@@ -149,6 +149,10 @@ h4{
 button{
   border: none;
 }
+.link_go{
+  text-decoration: underline;
+  text-decoration-line: underline;
+}
 /* common */
 
 #header{
@@ -264,7 +268,7 @@ button{
   vertical-align: middle;
 }
 #header .nav_btn .login a span{
-  background-color: #218DCF;
+  background-color: #e60000;
   padding: 3px 10px;
   border-radius: 5px;
   color: #fff;
@@ -283,6 +287,9 @@ button{
 #header .nav_btn .search img, #header .nav_btn .mo_nav_menu img, #header .nav_btn .language img{
   width: 30px;
   height: 30px;
+}
+#header .nav_btn .search .x_btn{
+  filter: invert(1);
 }
 table {
   border-spacing: 0px;
@@ -410,6 +417,7 @@ box-shadow: 0 0 1px 1px #111;
   font-size: 14px;
 }
 #header .language .lang_menu{
+  z-index: 50;
   display: none;
   position: absolute;
   background-color: #fff;
@@ -434,7 +442,7 @@ box-shadow: 0 0 1px 1px #111;
   padding:0
 }
 #header.scroll h1 img{
-  width:50%
+  width:80%
 }
 #header.scroll nav{
   top:0px;
@@ -745,8 +753,8 @@ footer{
   font-weight: 900;
 }
 .btn1 a{
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.8em;
 }
 /* quick end */
 @media all and (max-width: 1295px) {

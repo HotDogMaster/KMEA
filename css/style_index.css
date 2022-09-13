@@ -255,7 +255,6 @@ section{
 #sect6 .news ul li p span{
     font-size: 0.8rem;
     position:absolute;
-    top: 30px;
     right: 20px;
 }
 
@@ -274,13 +273,14 @@ section{
     width: 100%;
 }
 .footer-td{
+    justify-content: space-around;
     background:#000;
-    height:20px;
+    height:40px;
     width:100%;
+    text-align: center;
+    line-height: 40px;
 }
 .footer-td a{
-    position: absolute;
-    right: 0;
     color:#fff;
 }
 @media all and (max-width: 1295px) {
@@ -310,11 +310,7 @@ section{
         width:100%;
     }
     #sect2 .on::after {
-        width: 10px;
-        height: 10px;
-        bottom: 8px;
-        left: -12px;
-        border-radius: 50%;
+ display: none;
     }
     #sect2 .sect2_1 .product_img, #sect2 .sect2_1 .product_des, #sect2 .panels.sect2_1{
         width:100%;
@@ -419,12 +415,14 @@ section{
     #sect3 .recruit.flex {
         justify-content: center;
         transition: .3s;
-        width: 100%;
+        width: 40%;
+        border: 1px solid #fff;
+        margin-bottom: 30px;
     }
     #sect3 .recruit a {
         padding-bottom: 250px;
-        margin-bottom: 30px;
-        border-bottom: 2px solid #fff;
+        margin: 15px 15px;
+        border-bottom: none;
     }
     #sect3 .recruit:last-child a{
         border-bottom: none;
@@ -454,6 +452,12 @@ section{
     #popupDiv {
         max-width: 50%;
     }
+    #sect3 .recruit a {
+        display: block;
+        position: relative;
+        height: 250px;
+        text-align: center;
+    }
 }
 @media all and (max-width: 490px){
     #sect2 .sect2_1 h1{
@@ -468,6 +472,13 @@ section{
     }
 }
 @media all and (max-width: 425px){
+    #sect3 .recruit.flex {
+    justify-content: center;
+    transition: .3s;
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    }
     #sect6 .news li a {
         font-size: 0.8rem;
     }

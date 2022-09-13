@@ -4,14 +4,20 @@
 .sub_main {
     margin:20vh 0;
 }
+.red{
+    float: right;
+}
 .sub_main .flex{
     justify-content: center;
+    border-bottom: 2px solid black;
+    width: 50%;
+    flex-wrap: nowrap;
+    transform: translateX(50%);
 }
 .sub_main .search{
     border: 0;
-    border-bottom: 3px solid black;
     padding: 10px 3px;
-    width: 50%;
+    width: 100%;
 }
 .edge_computing{
     margin: 100px 0;
@@ -61,6 +67,7 @@
 }
 .pro_txt h2{
     margin-bottom: 20px;
+    font-size: 1.3rem;
 }
 .pro_menu li:first-child {
     border-right: none;
@@ -72,6 +79,12 @@
     display: block;
     padding: 20px;
     border-bottom: 1px dotted #ddd;
+}
+.item_list li{
+    width: 50%;
+}
+.item_list li:nth-child(2) a {
+    border-top: 1px dotted #ddd;
 }
 .pro_menu li.on{
     border: 2px solid #333;
@@ -106,8 +119,9 @@
     font-weight: 700;
 }
 @media all and (max-width:768px) {
-    .sub_main .search{
+    .sub_main .flex{
         width: 70%;
+        transform: translateX(20%);
     }
     .item_list a{
         padding-left: 0;
@@ -122,6 +136,7 @@
 @media all and (max-width:509px) {
     .pro_menu li{
         width: 155px;
+        padding: 12px;
     }
     .pro_img img{
         margin-bottom: 5px;
