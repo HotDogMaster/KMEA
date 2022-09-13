@@ -70,5 +70,11 @@ opacity: 1;
 		transform: translate(0,0);
 		opacity: 1;
 		}
-	
+	@media all and (max-width:768px) {
+		#sect2{
+			transform: translate(0,0);
+			opacity: 1;
+			}
+		
+	}
 		
