@@ -1,4 +1,3 @@
-$(document).ready(function(){
 	var getCookie = function (cname) {
         var name = cname + "=";
         var ca = document.cookie.split(';');
@@ -21,7 +20,7 @@ $(document).ready(function(){
         if($("input[name='chkbox']").is(":checked") == true){
             setCookie("close","Y",1);   //기간( ex. 1은 하루, 7은 일주일)
         }
-        $("#popupDivupDiv").hide();
+        $("#popupDiv").hide();
     }
     
     $(document).ready(function(){
@@ -35,5 +34,3 @@ $(document).ready(function(){
             couponClose();
         });
     });
-출처: https://triplexlab.tistory.com/5 [트리플엑스랩 | TriplexLab:티스토리]
-});
