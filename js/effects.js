@@ -52,16 +52,6 @@ $('.center').slick({
   ]
 });
 
-var btn_stat = 0
-$('.quick_btn').click(function(){
-    if(btn_stat == 0) {
-        $(this).stop().addClass('active');
-        btn_stat = 1;
-    } else{
-        $(this).stop().removeClass('active');
-        btn_stat = 0;
-    }
-});
 $('#pop_up .close').click(function(){
   $('#pop_up').fadeOut(300);
 });
@@ -133,6 +123,17 @@ $( window ).scroll( function() {
 		$( '.quick_btn'  ).fadeOut();
 	}
 } );
+
+var btn_stat = 0
+$('.quick_btn').click(function(){
+    if(btn_stat == 0) {
+        $(this).stop().addClass('active');
+        btn_stat = 1;
+    } else{
+        $(this).stop().removeClass('active');
+        btn_stat = 0;
+    }
+});
 $( '.top' ).click( function() {
 	$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
   $('.quick_btn').stop().removeClass('active');

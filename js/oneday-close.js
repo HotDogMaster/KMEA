@@ -1,27 +1,39 @@
 $(document).ready(function(){
-	var layer = $('.layerPop');
-    var btnClose = $('.btn-close');
-	var edate= new Date("2022/09/13 08:00:00"); 
-
-	//닫기버튼 누를시 하루동안 열지않기
-	cookiedata = document.cookie;
-
-    if ( Date.now() <= edate && cookiedata.indexOf("layerCookie=done") < 0 ){     
-		layer.show();
-	}
-    else {
-    	layer.hide();
+	var getCookie = function (cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+        }
+        return "";
     }
 
-	function setCookie( name, value, expiredays ) {
+    var setCookie = function (cname, cvalue, exdays) {
         var todayDate = new Date();
-        todayDate.setDate( todayDate.getDate() + expiredays ); 
-        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+        todayDate.setTime(todayDate.getTime() + (exdays*24*60*60*1000));    
+        var expires = "expires=" + todayDate.toUTCString(); // UTC기준의 시간에 exdays인자로 받은 값에 의해서 cookie가 설정 됩니다.
+        document.cookie = cname + "=" + cvalue + "; " + expires;
     }
 
-	btnClose.on("click", function(){
-        //expiredays의 1은 하루를 의미한다, 일주일은 7, 1년은 365로 입력
-		setCookie( "layerCookie", "done" , 1);
-		layer.fadeOut('fast');
-	})
+    var couponClose = function(){
+        if($("input[name='chkbox']").is(":checked") == true){
+            setCookie("close","Y",1);   //기간( ex. 1은 하루, 7은 일주일)
+        }
+        $("#popupDivupDiv").hide();
+    }
+    
+    $(document).ready(function(){
+        var cookiedata = document.cookie;
+        if(cookiedata.indexOf("close=Y")<0){
+            $("#popupDiv").show();
+        }else{
+            $("#popupDiv").hide();
+        }
+        $(".btn-close").click(function(){
+            couponClose();
+        });
+    });
+출처: https://triplexlab.tistory.com/5 [트리플엑스랩 | TriplexLab:티스토리]
 });
