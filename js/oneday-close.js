@@ -12,13 +12,13 @@
     var setCookie = function (cname, cvalue, exdays) {
         var todayDate = new Date();
         todayDate.setTime(todayDate.getTime() + (exdays*24*60*60*1000));    
-        var expires = "expires=" + todayDate.toUTCString(); // UTC기준의 시간에 exdays인자로 받은 값에 의해서 cookie가 설정 됩니다.
+        var expires = "expires=" + todayDate.toUTCString(); 
         document.cookie = cname + "=" + cvalue + "; " + expires;
     }
 
-    var couponClose = function(){
-        if($("input[name='chkbox']").is(":checked") == true){
-            setCookie("close","Y",1);   //기간( ex. 1은 하루, 7은 일주일)
+    var couponClose = function(sta){
+        if(sta == 1){
+            setCookie("close","Y",1);
         }
         $("#popupDiv").hide();
     }
@@ -31,6 +31,6 @@
             $("#popupDiv").hide();
         }
         $(".btn-close").click(function(){
-            couponClose();
+            couponClose(1);
         });
     });
