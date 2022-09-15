@@ -447,6 +447,12 @@ section{
     #sect6 .ascenter .flex .flex p{
         width: 150px;
     }
+    .search-box {
+        width: 80%;
+    }
+    #header .nav_btn .recent {
+        width: 80%;
+    }
 }
 @media all and (max-width: 533px){
     #popupDiv {
