@@ -417,7 +417,6 @@ box-shadow: 0 0 1px 1px #111;
   font-size: 14px;
 }
 #header .language .lang_menu{
-  z-index: 50;
   display: none;
   position: absolute;
   background-color: #fff;
@@ -477,7 +476,7 @@ top:50px;
  .nav_pop #nav .close_btn {
   position: absolute;
   top: 10px;
-  right: 300px;
+  right: 0px;
   width: 45px;
   height: 45px;
   float: left;
