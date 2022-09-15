@@ -755,6 +755,9 @@ footer{
   font-size: 1.2em;
   line-height: 1.8em;
 }
+.z-on{
+  z-index: 50;
+}
 /* quick end */
 @media all and (max-width: 1295px) {
   #footer .inner .foot .foot_bot .copy {
