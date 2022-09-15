@@ -62,14 +62,18 @@ $('.login .login_btn').click(function(){
   $('#pop_up .pop_search').stop().animate({height: 0})
   $('#pop_up .search-box').hide();
   $('#pop_up .recent').hide();
+  $('#header .language .lang_menu').removeClass('z-on');
   $('.x_btn').css('display','none');
   lang_stat = 0;
   nav_stat = 0;
   if(login_stat == 0) {
+    $('#header .backg').addClass('z-on');
+    $('#pop_up .pop_search').removeClass('z-on');
     $('#header .backg').stop().animate({height: 350});
     $('#header .login_form').stop().show();
     login_stat = 1;
 } else{
+  $('#header .backg').removeClass('z-on');
   $('#header .backg').stop().animate({height: 0});
   $('#header .login_form').stop().fadeOut(200);
     login_stat = 0;
@@ -83,9 +87,12 @@ $('.language img').click(function(){
   $('#header .backg').stop().animate({height: 0});
   $('#header .login_form').hide();
   $('.x_btn').css('display','none');
+  $('#pop_up .pop_search').removeClass('z-on');
+  $('#header .backg').removeClass('z-on');
   login_stat = 0;
   nav_stat = 0;
   if(lang_stat == 0) {
+    $('#header .language .lang_menu').addClass('z-on');
     $('#header .language .lang_menu').stop().show();
     lang_stat = 1;
 } else{
@@ -97,10 +104,12 @@ var nav_stat = 0
 $('.search img').click(function(){
   $('.lang_menu').hide();
   $('#header .backg').stop().animate({height: 0});
+  $('#header .language .lang_menu').removeClass('z-on');
   $('#header .login_form').hide();
   login_stat = 0;
   lang_stat = 0;
     if(nav_stat == 0) {
+        $('#pop_up .pop_search').addClass('z-on');
         $('#pop_up .pop_search').stop().animate({height: 250});
         $('#pop_up .search-box').stop().fadeIn(200);
         $('#pop_up .recent').stop().fadeIn(700);
@@ -109,6 +118,7 @@ $('.search img').click(function(){
         $('.x_btn').css('display','block');
         nav_stat = 1;
     } else{
+        $('#pop_up .pop_search').removeClass('z-on');
         $('#pop_up .pop_search').stop().animate({height: 0});
         $('#pop_up .search-box').stop().fadeOut(400);
         $('#pop_up .recent').stop().fadeOut(100);
