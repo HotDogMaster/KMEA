@@ -1,16 +1,16 @@
 $(function(){
     $('#nav_btn').click(function(){
         $('.nav_pop').fadeIn()
-        $('.nav_pop #nav').css({'transform': 'translateX(0px)'});
+        $('.nav_pop #nav_m').css({'transform': 'translateX(0px)'});
     })
-    $('.nav_pop #nav .close_btn').click(function(){
+    $('.nav_pop #nav_m .close_btn').click(function(){
         $('.nav_pop').fadeOut()
-        $('.nav_pop #nav').css({'transform': 'translateX(300px)'});
+        $('.nav_pop #nav_m').css({'transform': 'translateX(300px)'});
     })
     $(document).on("click", function(e){  
         if( $(".nav_pop").is(e.target)) {
          $(".nav_pop").fadeOut()
-         $('.nav_pop #nav').css({'transform': 'translateX(300px)'});
+         $('.nav_pop #nav_m').css({'transform': 'translateX(300px)'});
     }
   });
     $('#btn1 > li.link_on .sub').show();

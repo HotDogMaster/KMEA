@@ -34,8 +34,9 @@ section{
 .panel{
     display: none;
 }
-#sect2 .sect2_1 h1{
+#sect2 .sect2_1 h2{
     margin: 15% 0;
+    font-size: 4rem;
 }
 #sect2 .sect2_1 h4{
     margin: 10% 0;
@@ -342,7 +343,7 @@ section{
     .panel .flex{
         flex-wrap: nowrap;
     }
-    #sect2 .sect2_1 h1 {
+    #sect2 .sect2_1 h2 {
         font-size: 48px;
     }
 }
@@ -396,7 +397,7 @@ section{
     #sect2 .sect2_1 .product_img {
         margin-top: 0;
     }
-    #sect2 .sect2_1 h1,#sect2 .sect2_1 h4,#sect2 .sect2_1 p {
+    #sect2 .sect2_1 h2,#sect2 .sect2_1 h4,#sect2 .sect2_1 p {
         margin: 5% 0%;
     }
     #sect2 .flex{
@@ -466,7 +467,7 @@ section{
     }
 }
 @media all and (max-width: 490px){
-    #sect2 .sect2_1 h1{
+    #sect2 .sect2_1 h2{
         font-size: 3em;
     }
     #sect6 .ascenter .flex .flex p{
@@ -499,7 +500,7 @@ section{
     }
 }
 @media all and (max-width: 320px){
-    #sect2 .sect2_1 h1 {
+    #sect2 .sect2_1 h2 {
         font-size: 2.6em;
     }
     #sect4 .promo_center div h4 {

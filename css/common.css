@@ -116,6 +116,9 @@ summary {
 .red{
   color: #e60000;
 }
+.none{
+  display: none;
+}
 #wrap{
   position: relative;
   word-break: keep-all;
@@ -466,14 +469,14 @@ top:50px;
   top:0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.nav_pop #nav{
+.nav_pop #nav_m{
   width:300px;height:100%;
  background:#fff;
  float:right;
  transform: translateX(300px);
  transition: .5s;
 }
- .nav_pop #nav .close_btn {
+ .nav_pop #nav_m .close_btn {
   position: absolute;
   top: 10px;
   right: 0px;
@@ -891,7 +894,7 @@ h1 {
 }
 
 @media all and (max-width: 320px){
-  .nav_pop #nav .close_btn {
+  .nav_pop #nav_m_m .close_btn {
       right: 0px;
       z-index: 1;
   } 
