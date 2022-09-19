@@ -31,6 +31,9 @@ section{
     bottom: -50%;
     right: 0;
 }
+#sect2 .sect2_1 p{
+    line-height: 1.5em;
+}
 .panel{
     display: none;
 }
@@ -370,7 +373,7 @@ section{
         justify-content: space-around;
     }
     #popupDiv {
-        max-width: 30%;
+        max-width: 60%;
     }
 }
 @media all and (max-width: 877px){
@@ -406,9 +409,6 @@ section{
     }
     #sect2 br{
         display: none;
-    }
-    #sect2 .sect2_1 .product_img {
-        margin-top: 30px;
     }
     #sect3 {
         padding: 3vh 0;
@@ -457,7 +457,8 @@ section{
 }
 @media all and (max-width: 533px){
     #popupDiv {
-        max-width: 50%;
+        left: 30px;
+        max-width: 80%;
     }
     #sect3 .recruit a {
         display: block;
@@ -479,6 +480,9 @@ section{
     }
 }
 @media all and (max-width: 425px){
+    #sect2 .sect2_1 .product_img img{
+        width: 100%;
+    }
     #sect3 .recruit.flex {
     justify-content: center;
     transition: .3s;
