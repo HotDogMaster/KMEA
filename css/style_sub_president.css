@@ -37,11 +37,16 @@
     font-weight: 300;
     text-align: center;
     line-height: 1.5em;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
-#sect1 .sect1_bot p span{
+#sect1 .sect1_bot p .bold{
     font-weight: 700;
     font-size: 1.25rem;
+}
+@media all and (max-width:10242px){
+    .p1024{
+        display: block;
+    }
 }
 @media all and (max-width:768px){
     #sect1 {
@@ -57,5 +62,18 @@
     }
     #sect1 .sect1_bot p, #sect1 .sect1_bot p span {
         font-size: 1rem;
+    }
+    .p768{
+        display: block;
+    }
+}
+@media all and (max-width:670px){
+#sect1 .sect1_top .ceo_img img{
+    width: 80%;
+}
+}
+@media all and (max-width:547px){
+    .p768{
+        display: inline;
     }
 }

@@ -328,6 +328,7 @@ section{
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin-top: 20px;
+        font-size: 14px;
     }
     .tabs li{
         padding: 0 10px  ;
@@ -401,7 +402,7 @@ section{
         margin-top: 0;
     }
     #sect2 .sect2_1 h2,#sect2 .sect2_1 h4,#sect2 .sect2_1 p {
-        margin: 5% 0%;
+        margin: 10% 0%;
     }
     #sect2 .flex{
         justify-content: space-around;
@@ -466,10 +467,20 @@ section{
         height: 250px;
         text-align: center;
     }
+    #sect3 .recruit p {
+        margin-top: 10px;
+    }
 }
 @media all and (max-width: 490px){
     #sect2 .sect2_1 h2{
         font-size: 3em;
+    }
+    #sect3 .recruit.flex {
+        justify-content: center;
+        transition: .3s;
+        width: 100%;
+        border: 1px solid #fff;
+        margin-bottom: 30px;
     }
     #sect6 .ascenter .flex .flex p{
         width: 100%;
@@ -478,17 +489,11 @@ section{
         width: 100%;
         margin-bottom: 20px;
     }
+    
 }
 @media all and (max-width: 425px){
     #sect2 .sect2_1 .product_img img{
-        width: 100%;
-    }
-    #sect3 .recruit.flex {
-    justify-content: center;
-    transition: .3s;
-    width: 100%;
-    border: 1px solid #fff;
-    margin-bottom: 30px;
+        width: 50%;
     }
     #sect6 .news li a {
         font-size: 0.8rem;

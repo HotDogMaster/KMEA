@@ -851,6 +851,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.quick_btn {
+  bottom: 80px;
+  right: 80px;
+}
 }
 @media all and (max-width: 490px){
   #header .logo img {
