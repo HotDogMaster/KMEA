@@ -140,20 +140,23 @@ section{
 }
 /* section4 end */
 #sect5{
+    position: relative;
     padding: 50px 0;
-    box-shadow: 0 0 10px #C11B2A;
-    background-color: #C11B2A;
+    background-image: url(../img/inderstry-factory.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 10px #ddd;
 }
 #sect5 h3{
-    color: #fff;
+    color: #333;
 }
 #sect5 .edu h4{
     margin-top: 50px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #333;
 }
 #sect5 .edu p{
-    color: #fff;
+    color: #666;
 }
 #sect5 .edu a {
     position: relative;
@@ -165,7 +168,7 @@ section{
     top: 0;
     left: 0;
     transform: translateY(25px);
-    background-color: #fff;
+    background-color: #000;
 }
 #sect5 .edu a p{
     font-size: 0.875rem;
