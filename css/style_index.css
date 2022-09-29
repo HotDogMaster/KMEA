@@ -47,7 +47,6 @@ section{
 #sect2 .sect2_1 .product_des{
     width:50%
 }
-
 #sect2 .sect2_1 .product_img{
     width:50%;
     box-sizing:border-box;
@@ -315,6 +314,9 @@ section{
     }
     #sect2 .product_menu{
         width:100%;
+    }
+    #sect2 .product_img img{
+        max-height: 300px;
     }
     #sect2 .on::after {
  display: none;
