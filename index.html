@@ -1,696 +1,824 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가짜미쓰비시전기오토메이션(유)</title>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="./css/scrolling.css">
-    <link rel="stylesheet" href="./css/style_index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <script src="./js/jquery-3.1.1.min.js"></script>
-    <script src="./js/jquery-migrate-3.0.0.js"></script>
-    <script src="./js/jquery.cookie-1.4.1.min.js"></script>
-    <script src="./js/slick.js"></script>
-    <script src="./js/effects.js"></script>
-    <script src="./js/scrolling.js"></script>
-    <script src="./js/header_nav.js"></script>
-    <script src="./js/tabs.js"></script>
-    <script src="./js/oneday-close.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>가짜미쓰비시전기오토메이션(유)</title>
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/slick.css">
+<link rel="stylesheet" href="./css/scrolling.css">
+<link rel="stylesheet" href="./css/style_index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./js/jquery-migrate-3.0.0.js"></script>
+<script src="./js/jquery.cookie-1.4.1.min.js"></script>
+<script src="./js/slick.js"></script>
+<script src="./js/effects.js"></script>
+<script src="./js/scrolling.js"></script>
+<script src="./js/header_nav.js"></script>
+<script src="./js/tabs.js"></script>
+<script src="./js/oneday-close.js"></script>
 </head>
 <body>
-    <div id="wrap">
-        <header id="header">
-            <div class="hinner flex">
-              <h2 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h2>
-              <nav id="nav">
-                <ul class="gnb mainMenu flex">
-                  <li>
-                    <a href="sub_president.html" class="link_go">회사소개 </a>
-                    <ul class="depth2">
-                      <li><a href="sub_president.html" class="link_go">President’s 인사말 </a></li>
-                      <li><a href="javascrpit:void(0)">기업이념</a></li>
-                      <li><a href="javascrpit:void(0)">연혁</a></li>
-                      <li><a href="javascrpit:void(0)">사업장 소개</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                  <li>
-                    <a href="sub_product.html" class="link_go">제품정보 </a>
-                    <ul class="depth2">
-                      <li><a href="sub_product.html" class="link_go">엣지 컴퓨팅 제품 </a></li>
-                      <li><a href="javascrpit:void(0)">컨트롤러</a></li>
-                      <li><a href="javascrpit:void(0)">드라이브 제품</a></li>
-                      <li><a href="javascrpit:void(0)">GOT · SCADA</a></li>
-                      <li><a href="javascrpit:void(0)">산업용 로봇</a></li>
-                      <li><a href="javascrpit:void(0)">저압기기</a></li>
-                      <li><a href="javascrpit:void(0)">고압기기</a></li>
-                      <li><a href="javascrpit:void(0)">전력 모니터링 제품</a></li>
-                      <li><a href="javascrpit:void(0)">가공기</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                  <li>
-                    <a href="sub_edu.html" class="link_go">교육안내 </a>
-                    <ul class="depth2">
-                      <li><a href="sub_edu.html" class="link_go">교육소개 </a></li>
-                      <li><a href="javascrpit:void(0)">정기교육</a></li>
-                      <li><a href="javascrpit:void(0)">맞춤식교육</a></li>
-                      <li><a href="javascrpit:void(0)">이러닝 (e-learning)</a></li>
-                      <li><a href="javascrpit:void(0)">나에게 맞는 강좌 찾기</a></li>
-                      <li><a href="javascrpit:void(0)">교육장안내</a></li>
-                      <li><a href="javascrpit:void(0)">교육 FAQ</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                  <li>
-                    <a href="javascrpit:void(0)">솔루션</a>
-                    <ul class="depth2">
-                      <li><a href="javascrpit:void(0)">목적별 솔루션</a></li>
-                      <li><a href="javascrpit:void(0)">iQ Monozukuri</a></li>
-                      <li><a href="javascrpit:void(0)">e-F@ctory</a></li>
-                      <li><a href="javascrpit:void(0)">e-F@ctory Alliance</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                  <li>
-                    <a href="javascrpit:void(0)">SHOWROOM</a>
-                    <ul class="depth2">
-                      <li><a href="javascrpit:void(0)">테크니컬센터</a></li>
-                      <li><a href="javascrpit:void(0)">FA시스템 전시장</a></li>
-                      <li><a href="javascrpit:void(0)">e-F@ctory Model Line</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                  <li>
-                    <a href="javascrpit:void(0)">고객지원</a>
-                    <ul class="depth2">
-                      <li><a href="javascrpit:void(0)">FA기술상담센터</a></li>
-                      <li><a href="javascrpit:void(0)">문의처</a></li>
-                      <li><a href="javascrpit:void(0)">A/S센터 안내</a></li>
-                      <li><a href="javascrpit:void(0)">FA용어사전</a></li>
-                      <li><a href="javascrpit:void(0)">DOWNLOAD</a></li>
-                      <li><a href="javascrpit:void(0)">FAQ</a></li>
-                      <li><a href="javascrpit:void(0)">Q&A</a></li>
-                      <li><a href="javascrpit:void(0)">판매점</a></li>
-                      <li><a href="javascrpit:void(0)">GOT샘플프로그램</a></li>
-                      <li><a href="javascrpit:void(0)">단종기종</a></li>
-                      <li><a href="javascrpit:void(0)">글로벌 비즈니스 서포트</a></li>
-                    </ul><!--depth2-->
-                  </li>
-                </ul><!--gnb-->
-              </nav>
-              <div class="nav_btn">
-                <ul class="flex">
-                  <li  class="login">
-                <a href="javascrpit:void(0)" class="login_btn"><span>로그인</span></a>
-                <div class="backg">
-                  <form class="login_form flex">
-                    <input type="text" required  autocomplete="on" placeholder="아이디를 입력하세요">
-                    <input type="password" required  autocomplete="on" placeholder="비밀번호를 입력하세요">
-                    <input type="submit" class="submit" value="로그인">
-                    <div class="sign flex">
-                      <p><a href="javascrpit:void(0)">아이디/비밀번호 찾기</a></p>
-                      <p><a href="javascrpit:void(0)">회원 가입</a></p>
-                    </div>
-                  </form>
-                  </div>
-              </li>
-              <li class="language">
-                <a href="javascrpit:void(0)" ><img src="./img/clarity_world-line.svg" alt="언어선택"></a>
-                <div class="lang_menu">
-                  <p><a href="javascrpit:void(0)">KOR</a></p>
-                  <p><a href="javascrpit:void(0)">ENG</a></p>
-                  <p><a href="javascrpit:void(0)">JPN</a></p>
-                </div>
-              </li>
-              <li  class="search">
-                <button><img src="./img/search_off.svg" alt="검색"></button>
-                <div id="pop_up">
-                  <form class="pop_search">
-                    <a href="javascrpit:void(0)" class="x_btn"><img src="./img/search_on.svg" alt="검색창 끄기"></a>
-                  <input type="text" name="focus" required class="search-box" autocomplete="on" placeholder="검색어를 입력하세요">
-                  <div class="recent flex">
-                    <p>최근 검색어</p><p class="flex"><a href="javascrpit:void(0)"> PCB</a> <a href="javascrpit:void(0)">반도체패키징산업전</a> <a href="javascrpit:void(0)">e-factory</a> </p>
-                  </div>
-                  </form>
-                </div>
-              </li>
-              <li>
-                <button id="nav_btn" class="mo_nav_menu">
-                  <img src="./img/bars-solid_off.svg" alt="모바일 네비게이션">
-                </button>
-              </li>
-              </ul>
-              </div>
-            </div>
-          </header>      
-          <div class="nav_pop">
-            <nav id="nav_m">
-              <p class="close_btn">
-                <img src="img/search_on.svg" alt="끄기버튼">
-              </p>
-               <div id="nav_top">
-                 <p><img src="img/logo.png" alt=""></p>
-                 <p>세계를 선두하는 미래의 혁신 FA 미쓰비시오토메이션!</p>
-                 <p class="log"><a href="javascrpit:void(0)">로그인</a> / <a href="javascrpit:void(0)">회원가입</a></p>
-               </div>
-               <div id="wrap_head">
-            <ul id="btn1">
-                <li class="">
-                  <a href="javascrpit:void(0)">회사소개</a>
-                  <ul class="sub">
-                    <li><a href="sub_president.html" class="link_go">President’s 인사말 </a></li>
-                    <li><a href="javascrpit:void(0)">기업이념</a></li>
-                    <li><a href="javascrpit:void(0)">연혁</a></li>
-                    <li><a href="javascrpit:void(0)">사업장 소개</a></li>
-                  </ul>
-                </li>
-                <li class="">
-                  <a href="javascrpit:void(0)">제품정보 </a>
-                  <ul class="sub">
-                    <li><a href="sub_product.html" class="link_go">엣지 컴퓨팅 제품 </a></li>
-                    <li><a href="javascrpit:void(0)">컨트롤러</a></li>
-                    <li><a href="javascrpit:void(0)">드라이브 제품</a></li>
-                    <li><a href="javascrpit:void(0)">GOT · SCADA</a></li>
-                    <li><a href="javascrpit:void(0)">산업용 로봇</a></li>
-                    <li><a href="javascrpit:void(0)">저압기기</a></li>
-                    <li><a href="javascrpit:void(0)">고압기기</a></li>
-                    <li><a href="javascrpit:void(0)">전력 모니터링 제품</a></li>
-                    <li><a href="javascrpit:void(0)">가공기</a></li>
-                  </ul>
-                </li>
-                <li class="">
-                  <a href="javascrpit:void(0)">교육안내 </a>
-                  <ul class="sub">
-                    <li><a href="sub_edu.html" class="link_go">교육소개 </a></li>
-                    <li><a href="javascrpit:void(0)">정기교육</a></li>
-                    <li><a href="javascrpit:void(0)">맞춤식교육</a></li>
-                    <li><a href="javascrpit:void(0)">이러닝(e-learning)</a></li>
-                    <li><a href="javascrpit:void(0)">나에게 맞는 강좌 찾기</a></li>
-                    <li><a href="javascrpit:void(0)">교육장안내</a></li>
-                    <li><a href="javascrpit:void(0)">교육 FAQ</a></li>
-                  </ul>
-                </li>
-                <li class="">
-                  <a href="javascrpit:void(0)">솔루션</a>
-                  <ul class="sub">
-                    <li><a href="javascrpit:void(0)">목적별 솔루션</a></li>
-                    <li><a href="javascrpit:void(0)">iQ Monozukuri</a></li>
-                    <li><a href="javascrpit:void(0)">e-F@ctory</a></li>
-                    <li><a href="javascrpit:void(0)">e-F@ctory Alliance</a></li>
-                  </ul>
-                </li>
-                <li class="">
-                  <a href="javascrpit:void(0)">SHOWROOM</a>
-                  <ul class="sub">
-                    <li><a href="javascrpit:void(0)">테크니컬센터</a></li>
-                    <li><a href="javascrpit:void(0)">FA시스템 전시장</a></li>
-                    <li><a href="javascrpit:void(0)">e-F@ctory Model Line</a></li>
-                  </ul>
-                </li>
-                <li class="">
-                  <a href="javascrpit:void(0)">고객지원</a>
-                  <ul class="sub">
-                    <li><a href="javascrpit:void(0)">FA기술상담센터</a></li>
-                    <li><a href="javascrpit:void(0)">문의처</a></li>
-                    <li><a href="javascrpit:void(0)">A/S센터 안내</a></li>
-                    <li><a href="javascrpit:void(0)">FA용어사전</a></li>
-                    <li><a href="javascrpit:void(0)">DOWNLOAD</a></li>
-                    <li><a href="javascrpit:void(0)">FAQ</a></li>
-                    <li><a href="javascrpit:void(0)">Q&A</a></li>
-                    <li><a href="javascrpit:void(0)">판매점</a></li>
-                    <li><a href="javascrpit:void(0)">GOT샘플프로그램</a></li>
-                    <li><a href="javascrpit:void(0)">단종기종</a></li>
-                    <li><a href="javascrpit:void(0)">글로벌비즈니스서포트</a></li>
-                  </ul>
-                </li>
-              </ul>
-              </div>
-              </nav>
-          </div>
-          <!-- mobile nav -->
-          <section id="sect1" class="lazy slider">
-            <div>
-                <a href="javascrpit:void(0)">
-                    <img src="./img/mainbanner_e-factory_pc.png" alt="e-factory 배너">
-                </a>
-            </div>
-            <div>
-                <a href="javascrpit:void(0)">
-                    <img src="./img/mainbanner_e-factory_solution_pc.png" alt="e-factory 솔루션 배너">
-                </a>
-            </div>
-            <div>
-                <a href="javascrpit:void(0)">
-                    <img src="./img/mainbanner_3_pc.png" alt="테크니컬센터 배너">
-                </a>
-            </div>
-          </section>
-        <section id="sect2">
-            <div class="inner">
-                <h3>대표  제품정보</h3>
-                <article class="tabSet flex sec2d">
-                  <div class="panels sect2_1">
-                    <div class="panel" id="panel1-1">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>엣지 컴퓨팅 제품</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/edgecomputing.png" alt="엣지컴퓨팅제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-2">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>컨트롤러</h2>
-                            <h4>PLC(MELSEC)</h4>
-                            <p>MELSEC 시리즈는 항상 한 차원 더 높은 수준에서 <br>
-                              고객의 시스템 요구를 충족하며, <br>
-                              풍부한 라인업과 향상된 네트워크 시스템을 <br>
-                              제공하는 솔루션입니다. <br>
-                              MELSEC 시리즈는 향상된 제어 시스템을 제공할 수 있는 <br>
-                              탁월한 역량을 보유하고 있습니다. <br>
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/controller.png" alt="컨트롤러 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-3">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>드라이브제품</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-4">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>GOT · SCADA</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-5">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>산업용 로봇</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-6">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>저압기기</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-7">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>고압기기</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-8">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>전력 모니터링 제품</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <div class="panel" id="panel1-9">
-                      <div class="flex">
-                        <div class="product_des">
-                          <a href="javascrpit:void(0)">
-                            <h2>가공기</h2>
-                            <h4>산업용 PC MELIPC</h4>
-                            <p>미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
-                                범용 어플리케이션을 사용하는 강력한 기능과 <br>
-                                유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
-                                새로운 가치를 제공합니다.
-                            </p>
-                          </a>
-                        </div>
-                        <div class="product_img">
-                          <a href="javascrpit:void(0)">
-                            <img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                  </div>
-                    <div class="product_menu">
-                        <ul class="tabs">
-                            <li><a href="#panel1-1" class="on">엣지컴퓨팅제품</a></li>
-                            <li><a href="#panel1-2">컨트롤러</a></li>
-                            <li><a href="#panel1-3">드라이브제품</a></li>
-                            <li><a href="#panel1-4">GOT · SCADA</a></li>
-                            <li><a href="#panel1-5">산업용 로봇</a></li>
-                            <li><a href="#panel1-6">저압기기</a></li>
-                            <li><a href="#panel1-7">고압기기</a></li>
-                            <li><a href="#panel1-8">전력 모니터링 제품</a></li>
-                            <li><a href="#panel1-9">가공기</a></li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section id="sect3">
-            <div class="inner flex">
-                <div class="recruit flex">
-                    <a href="javascrpit:void(0)">
-                      <h4>인재상</h4>
-                      <div class="roll_before">
-                        <img src="./img/carbon_user-identification.png"   alt="인재상 아이콘">
-                        <p>
-                          기술혁신에 공헌하는 <br>
-                          인재를 찾습니다.
-                        </p>
-                      </div>
-                      <p class="hidden">실패를 두려워하지 않고 <br> 보다 멋진
-                        내일을 위해 도전하는 사람</p>
-                      <p><span>바로가기</span></p>
-                    </a>
-                </div>
-                <div class="recruit flex">
-                  <a href="javascrpit:void(0)">
-                    <h4>인사제도</h4>
-                    <div class="roll_before">
-                    <img src="./img/carbon_order-details.svg" alt="인사제도 아이콘">
-                    <p>
-                      팀웍을 바탕으로 한 개인의 <br>
-                      창의와 자율을 존중합니다.
-                    </p>
-                  </div>
-                    <p class="hidden">개인의 목표를 설정하여 <br> 조직과 개인의 목표를 실현</p>
-                 
-                    <p><span>바로가기</span></p>
-                  </a>
-                  </div>
-                <div class="recruit flex">
-                  <a href="javascrpit:void(0)">
-                    <h4>채용정보</h4>
-                    <div class="roll_before">
-                    <img src="./img/carbon_license.svg" alt="채용정보 아이콘">
-                    <p>
-                      미래를 창조하는 <br>
-                      예비FA전문가를 기다립니다.
-                    </p>
-                  </div>
-                    <p class="hidden"> 세계를 선도하는 제조 기업 <br> 더 멋진 내일을 개척하는 인재 </p>
-                    <p><span>바로가기</span></p>
-                  </a>
-                </div>
-            </div>
-        </section>
-        <section id="sect4">
-            <div class="inner">
-              <div class="flex">
-              <h3>홍보센터</h3>
-              <p><a href="javascrpit:void(0)">더보기</a></p>
-              </div>
-                <div class="flex promo_center">
-                    <div>
-                      <a href="javascrpit:void(0)">
-                        <div>
-                        <img src="./img/jonny-gios-8wKTIZ1KEzY-unsplash.png" alt="전시회">
-                        </div>
-                        <h4>전시회</h4>
-                        <p>미쓰비시 전기가 참가한 <br>
-                          전시회 정보를 게재하고 있습니다.</p>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="javascrpit:void(0)">
-                        <div>
-                        <img src="./img/6090_5479_042.jpg" alt="세미나">
-                        </div>
-                        <h4>세미나</h4>
-                        <p>미쓰비시전기의 FA기술에 관한 <br>
-                          세미나를 소개합니다.
-                          
-                          </p>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="javascrpit:void(0)">
-                        <div>
-                        <img src="./img/noticeme.png" alt="공지사항">
-                        </div>
-                        <h4>공지사항</h4>
-                        <p>미쓰비시 전기의 중요 공지사항을 <br>
-                          전달합니다.</p>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="javascrpit:void(0)">
-                        <div>
-                        <img src="./img/press.png" alt="보도자료">
-                        </div>
-                        <h4>보도자료</h4>
-                        <p>미쓰비시전기에 대한 보도자료입니다.</p>
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="sect5">
-            <div class="inner">
-                <h3>교육센터</h3>
-                <div class="center slider edu">
-                  <a href="javascrpit:void(0)">
-                    <img src="./img/junggi.png" alt="정기교육">
-                    <div></div>
-                    <h4>정기교육</h4>
-                    <p>정기교육은 기초지식에서 응용기술의 습득까지 <br>
-                      고객의 요구에 따라 필요한 코스를 수강하실 수 있으며, <br>
-                      최신교육설비를 사용하여 <br>
-                      실습위주의 교육을 고객에게 제공하고 있습니다.</p>
-                  </a>
-                  <a href="javascrpit:void(0)">
-                    <img src="./img/fitedu.png" alt="맞춤식 교육">
-                    <div></div>
-                    <h4>맞춤식 교육</h4>
-                    <p>고객의 요구에 따른 맞춤식 교육(ROBOT, CNC, FA)을 <br>
-                      실시하고 있사오니 상세한 내용은 <br>
-                      맞춤식교육 상담처로 연락부탁드립니다.
-                    </p>
-                  </a>
-                  <a href="javascrpit:void(0)">
-                    <img src="./img/elearning.png" alt="이러닝">
-                    <div></div>
-                    <h4>이러닝</h4>
-                    <p>무료 교육으로 비용이 전혀 들지 않으며, <br>
-                      자신의 수준과 관심에 맞는 학습을 <br>
-                      자기주도적으로 수행할 수 있습니다.</p>
-                  </a>
-                  <a href="javascrpit:void(0)">
-                    <img src="./img/myedu.png" alt="나에게 맞는 강좌 찾기">
-                    <div></div>
-                    <h4>나에게 맞는 강좌 찾기</h4>
-                    <p>질문을 통해 자신에게 필요한 이러닝 강좌를 <br>
-                      쉽게 선택할 수 있습니다.</p>
-                  </a>
-                  <a href="javascrpit:void(0)">
-                    <img src="./img/eduroomfind.png" alt="교육장 안내">
-                    <div></div>
-                    <h4>교육장 안내</h4>
-                    <p>교육장의 위치와 오는 방법을 알 수 있습니다.</p>
-                  </a>
-                <a href="javascrpit:void(0)">
-                    <img src="./img/edufaq.png" alt="교육 FAQㄴ">
-                    <div></div>
-                    <h4>교육 FAQ</h4>
-                    <p>교육에 관하여 자주묻는 질문에 대한 답변을 얻을 수 있습니다.</p>
-                  </a>
-                </div>
-            </div>
-        </section>
-        <section id="sect6">
-            <div class="inner flex">
-              <div class="ascenter">
-                <h3>A/S 센터</h3>
-                <div class="flex">
-                  <a href="javascrpit:void(0)"  class="flex"><img src="./img/ascenter.png" alt="미쓰비시 as센터현황">
-                  <div>
-                    <p>한국 미쓰비시전기 오토메이션<br><span>A/S 센터</span></p>
-                    <p>클릭 시 A/S 센터 안내로 <br> 이동합니다.</p>
-                  </div>
-                </a>
-                </div>
-              </div>
-              <div class="news">
-                <h3>새소식</h3>
-                <ul>
-                  <li>
-                    <a href="javascrpit:void(0)">8월 29일 KPCA2022
-                      국제PCB 및 반도체패키징산업전 
-                       </a>
-                    <p class="date"><span>8월 </span> 27</p>
-                  </li>
-                  <li>
-                    <a href="javascrpit:void(0)">온라인 교육 2022년 8월 프로그램 안내</a>
-                    <p class="date"><span>8월 </span> 05</p>
-                  </li> 
-                  <li>
-                    <a href="javascrpit:void(0)">[인더스트리뉴스] 한국미쓰비시전기오토메이션, “에너지 절감과 동시에 생산성 향상”</a>
-                    <p class="date"><span>7월 </span> 07</p>
-                  </li> 
-                  <li>
-                    <a href="javascrpit:void(0)">온라인 교육 2022년 7월 프로그램 안내</a>
-                    <p class="date"><span>6월 </span> 30</p>
-                  </li>     
-                </ul>
-              </div><!--news-->
-              </div>
-        </section>
-        <footer id="footer">
-          <div class="inner flex">
-            <h1 class="bot_log"><a href="./index.html"><img src="img/logo.png" alt="로고"></a></h1>
-            <div class="foot">
-              <div class="foot_top">
-                <div class="foot_top_txt">
-                  <p><a href="javascrpit:void(0)">이용약관</a></p>
-                  <p><a href="javascrpit:void(0)">이메일무단수집거부</a></p>
-                  <p><a href="javascrpit:void(0)">개인정보취급방침</a></p>
-                </div>
-                <div class="foot_top_icon">
-                  <a href="javascrpit:void(0)"><p class="foot_icon"><img src="img/Rectangle_33.svg" alt="CLPA로고"></p></a>
-                  <a href="javascrpit:void(0)"><p class="foot_icon"><img src="img/kakaotalk_logo.png" alt="미쓰비시전기카카오톡로고"></p></a>
-                  <a href="javascrpit:void(0)"><p class="foot_icon"><img src="img/youtu.be.png" alt="미쓰비시전기유튜브"></p></a>
-                </div>
-              </div>
-              <div class="foot_bot">
-                <div class="flex">
-                  <p>한국미쓰비시전기오토메이션(주)<span></span></p>
-                  <p>사업자 등록번호 109-81-48163 <span></span></p>
-                  <p>본사:서울특별시 강서구 가양동 1480-6</p>
-                </div>
-                <p>서울특별시 강서구 양천로 401, 에이동 7~9층(가양동, 강서한강자이타워) 대표전화: 3660-9582</p>
-                <p class="copy">Copyright &copy; 2022 . All rights reserved.</p>
-                <div class="abs flex">
-                  <p>FA상담센터</p> 
-                  <p class="num">	1566-8495</p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_bot">
-              <img src="./img/fbanner_kakaochatbot_v2.png" alt="카카오톡 챗봇 QR코드">
-            </div>
-          </div>
-        </footer>
-        <div class="quick_btn">
-          <p>
-            <span class="open">+</span>
-          </p>
-          <p class="btn1"><a href="javascrpit:void(0)" class="top">TOP</a></p>
-          <p class="btn2"><a href="javascrpit:void(0)"> FA <br> 센터</a></p>
-          <p class="btn3"><a href="javascrpit:void(0)">FA <br> 특약점</a></p>
-        </div>
-        <div id="popupDiv" class="popup"> 
-          <div class="contents" id="popup_1"> 
-           <a href="https://kr.mitsubishielectric.com/fa/ko/exhibition.do?act=exhibitionIndex&seq=77&email=&exhibition_id=&user_id=&num=0&external=&work_gubun=1" target="_blank"><img src="./img/popupimg1.png" alt="배너 사진"> </a>
-          </div> 
-          <div class="footer-td flex"> 
-            <a href="#" class="btn-close">오늘하루열지않기</a> 
-            <a href="javascrpit:void(0)" class="close-modal">팝업닫기</a> 
-          </div> 
-        </div>
-      </div>
+<div id="wrap">
+	<header id="header">
+	<div class="hinner flex">
+		<h2 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h2>
+		<nav id="nav">
+		<ul class="gnb mainMenu flex">
+			<li>
+			<a href="sub_president.html" class="link_go">회사소개 </a>
+			<ul class="depth2">
+				<li><a href="sub_president.html" class="link_go">President’s 인사말 </a></li>
+				<li><a href="javascrpit:void(0)">기업이념</a></li>
+				<li><a href="javascrpit:void(0)">연혁</a></li>
+				<li><a href="javascrpit:void(0)">사업장 소개</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+			<li>
+			<a href="sub_product.html" class="link_go">제품정보 </a>
+			<ul class="depth2">
+				<li><a href="sub_product.html" class="link_go">엣지 컴퓨팅 제품 </a></li>
+				<li><a href="javascrpit:void(0)">컨트롤러</a></li>
+				<li><a href="javascrpit:void(0)">드라이브 제품</a></li>
+				<li><a href="javascrpit:void(0)">GOT · SCADA</a></li>
+				<li><a href="javascrpit:void(0)">산업용 로봇</a></li>
+				<li><a href="javascrpit:void(0)">저압기기</a></li>
+				<li><a href="javascrpit:void(0)">고압기기</a></li>
+				<li><a href="javascrpit:void(0)">전력 모니터링 제품</a></li>
+				<li><a href="javascrpit:void(0)">가공기</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+			<li>
+			<a href="sub_edu.html" class="link_go">교육안내 </a>
+			<ul class="depth2">
+				<li><a href="sub_edu.html" class="link_go">교육소개 </a></li>
+				<li><a href="javascrpit:void(0)">정기교육</a></li>
+				<li><a href="javascrpit:void(0)">맞춤식교육</a></li>
+				<li><a href="javascrpit:void(0)">이러닝 (e-learning)</a></li>
+				<li><a href="javascrpit:void(0)">나에게 맞는 강좌 찾기</a></li>
+				<li><a href="javascrpit:void(0)">교육장안내</a></li>
+				<li><a href="javascrpit:void(0)">교육 FAQ</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+			<li>
+			<a href="javascrpit:void(0)">솔루션</a>
+			<ul class="depth2">
+				<li><a href="javascrpit:void(0)">목적별 솔루션</a></li>
+				<li><a href="javascrpit:void(0)">iQ Monozukuri</a></li>
+				<li><a href="javascrpit:void(0)">e-F@ctory</a></li>
+				<li><a href="javascrpit:void(0)">e-F@ctory Alliance</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+			<li>
+			<a href="javascrpit:void(0)">SHOWROOM</a>
+			<ul class="depth2">
+				<li><a href="javascrpit:void(0)">테크니컬센터</a></li>
+				<li><a href="javascrpit:void(0)">FA시스템 전시장</a></li>
+				<li><a href="javascrpit:void(0)">e-F@ctory Model Line</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+			<li>
+			<a href="javascrpit:void(0)">고객지원</a>
+			<ul class="depth2">
+				<li><a href="javascrpit:void(0)">FA기술상담센터</a></li>
+				<li><a href="javascrpit:void(0)">문의처</a></li>
+				<li><a href="javascrpit:void(0)">A/S센터 안내</a></li>
+				<li><a href="javascrpit:void(0)">FA용어사전</a></li>
+				<li><a href="javascrpit:void(0)">DOWNLOAD</a></li>
+				<li><a href="javascrpit:void(0)">FAQ</a></li>
+				<li><a href="javascrpit:void(0)">Q&A</a></li>
+				<li><a href="javascrpit:void(0)">판매점</a></li>
+				<li><a href="javascrpit:void(0)">GOT샘플프로그램</a></li>
+				<li><a href="javascrpit:void(0)">단종기종</a></li>
+				<li><a href="javascrpit:void(0)">글로벌 비즈니스 서포트</a></li>
+			</ul>
+			<!--depth2-->
+			</li>
+		</ul>
+		<!--gnb-->
+		</nav>
+		<div class="nav_btn">
+			<ul class="flex">
+				<li class="login">
+				<a href="javascrpit:void(0)" class="login_btn"><span>로그인</span></a>
+				<div class="backg">
+					<form class="login_form flex">
+						<input type="text" required autocomplete="on" placeholder="아이디를 입력하세요">
+						<input type="password" required autocomplete="on" placeholder="비밀번호를 입력하세요">
+						<input type="submit" class="submit" value="로그인">
+						<div class="sign flex">
+							<p>
+								<a href="javascrpit:void(0)">아이디/비밀번호 찾기</a>
+							</p>
+							<p>
+								<a href="javascrpit:void(0)">회원 가입</a>
+							</p>
+						</div>
+					</form>
+				</div>
+				</li>
+				<li class="language">
+				<a href="javascrpit:void(0)"><img src="./img/clarity_world-line.svg" alt="언어선택"></a>
+				<div class="lang_menu">
+					<p>
+						<a href="javascrpit:void(0)">KOR</a>
+					</p>
+					<p>
+						<a href="javascrpit:void(0)">ENG</a>
+					</p>
+					<p>
+						<a href="javascrpit:void(0)">JPN</a>
+					</p>
+				</div>
+				</li>
+				<li class="search">
+				<button><img src="./img/search_off.svg" alt="검색"></button>
+				<div id="pop_up">
+					<form class="pop_search">
+						<a href="javascrpit:void(0)" class="x_btn"><img src="./img/search_on.svg" alt="검색창 끄기"></a>
+						<input type="text" name="focus" required class="search-box" autocomplete="on" placeholder="검색어를 입력하세요">
+						<div class="recent flex">
+							<p>
+								최근 검색어
+							</p>
+							<p class="flex">
+								<a href="javascrpit:void(0)"> PCB</a><a href="javascrpit:void(0)">반도체패키징산업전</a><a href="javascrpit:void(0)">e-factory</a>
+							</p>
+						</div>
+					</form>
+				</div>
+				</li>
+				<li>
+				<button id="nav_btn" class="mo_nav_menu">
+				<img src="./img/bars-solid_off.svg" alt="모바일 네비게이션">
+				</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<div class="nav_pop">
+		<nav id="nav_m">
+		<p class="close_btn">
+			<img src="img/search_on.svg" alt="끄기버튼">
+		</p>
+		<div id="nav_top">
+			<p>
+				<img src="img/logo.png" alt="">
+			</p>
+			<p>
+				세계를 선두하는 미래의 혁신 FA 미쓰비시오토메이션!
+			</p>
+			<p class="log">
+				<a href="javascrpit:void(0)">로그인</a> / <a href="javascrpit:void(0)">회원가입</a>
+			</p>
+		</div>
+		<div id="wrap_head">
+			<ul id="btn1">
+				<li class="">
+				<a href="javascrpit:void(0)">회사소개</a>
+				<ul class="sub">
+					<li><a href="sub_president.html" class="link_go">President’s 인사말 </a></li>
+					<li><a href="javascrpit:void(0)">기업이념</a></li>
+					<li><a href="javascrpit:void(0)">연혁</a></li>
+					<li><a href="javascrpit:void(0)">사업장 소개</a></li>
+				</ul>
+				</li>
+				<li class="">
+				<a href="javascrpit:void(0)">제품정보 </a>
+				<ul class="sub">
+					<li><a href="sub_product.html" class="link_go">엣지 컴퓨팅 제품 </a></li>
+					<li><a href="javascrpit:void(0)">컨트롤러</a></li>
+					<li><a href="javascrpit:void(0)">드라이브 제품</a></li>
+					<li><a href="javascrpit:void(0)">GOT · SCADA</a></li>
+					<li><a href="javascrpit:void(0)">산업용 로봇</a></li>
+					<li><a href="javascrpit:void(0)">저압기기</a></li>
+					<li><a href="javascrpit:void(0)">고압기기</a></li>
+					<li><a href="javascrpit:void(0)">전력 모니터링 제품</a></li>
+					<li><a href="javascrpit:void(0)">가공기</a></li>
+				</ul>
+				</li>
+				<li class="">
+				<a href="javascrpit:void(0)">교육안내 </a>
+				<ul class="sub">
+					<li><a href="sub_edu.html" class="link_go">교육소개 </a></li>
+					<li><a href="javascrpit:void(0)">정기교육</a></li>
+					<li><a href="javascrpit:void(0)">맞춤식교육</a></li>
+					<li><a href="javascrpit:void(0)">이러닝(e-learning)</a></li>
+					<li><a href="javascrpit:void(0)">나에게 맞는 강좌 찾기</a></li>
+					<li><a href="javascrpit:void(0)">교육장안내</a></li>
+					<li><a href="javascrpit:void(0)">교육 FAQ</a></li>
+				</ul>
+				</li>
+				<li class="">
+				<a href="javascrpit:void(0)">솔루션</a>
+				<ul class="sub">
+					<li><a href="javascrpit:void(0)">목적별 솔루션</a></li>
+					<li><a href="javascrpit:void(0)">iQ Monozukuri</a></li>
+					<li><a href="javascrpit:void(0)">e-F@ctory</a></li>
+					<li><a href="javascrpit:void(0)">e-F@ctory Alliance</a></li>
+				</ul>
+				</li>
+				<li class="">
+				<a href="javascrpit:void(0)">SHOWROOM</a>
+				<ul class="sub">
+					<li><a href="javascrpit:void(0)">테크니컬센터</a></li>
+					<li><a href="javascrpit:void(0)">FA시스템 전시장</a></li>
+					<li><a href="javascrpit:void(0)">e-F@ctory Model Line</a></li>
+				</ul>
+				</li>
+				<li class="">
+				<a href="javascrpit:void(0)">고객지원</a>
+				<ul class="sub">
+					<li><a href="javascrpit:void(0)">FA기술상담센터</a></li>
+					<li><a href="javascrpit:void(0)">문의처</a></li>
+					<li><a href="javascrpit:void(0)">A/S센터 안내</a></li>
+					<li><a href="javascrpit:void(0)">FA용어사전</a></li>
+					<li><a href="javascrpit:void(0)">DOWNLOAD</a></li>
+					<li><a href="javascrpit:void(0)">FAQ</a></li>
+					<li><a href="javascrpit:void(0)">Q&A</a></li>
+					<li><a href="javascrpit:void(0)">판매점</a></li>
+					<li><a href="javascrpit:void(0)">GOT샘플프로그램</a></li>
+					<li><a href="javascrpit:void(0)">단종기종</a></li>
+					<li><a href="javascrpit:void(0)">글로벌비즈니스서포트</a></li>
+				</ul>
+				</li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+	<!-- mobile nav -->
+	<section id="sect1" class="lazy slider">
+	<div>
+		<a href="javascrpit:void(0)">
+		<img src="./img/mainbanner_e-factory_pc.png" alt="e-factory 배너">
+		</a>
+	</div>
+	<div>
+		<a href="javascrpit:void(0)">
+		<img src="./img/mainbanner_e-factory_solution_pc.png" alt="e-factory 솔루션 배너">
+		</a>
+	</div>
+	<div>
+		<a href="javascrpit:void(0)">
+		<img src="./img/mainbanner_3_pc.png" alt="테크니컬센터 배너">
+		</a>
+	</div>
+	</section>
+	<section id="sect2">
+	<div class="inner">
+		<h3>대표 제품정보</h3>
+		<article class="tabSet flex sec2d">
+		<div class="panels sect2_1">
+			<div class="panel" id="panel1-1">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>엣지 컴퓨팅 제품</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/edgecomputing.png" alt="엣지컴퓨팅제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-2">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>컨트롤러</h2>
+						<h4>PLC(MELSEC)</h4>
+						<p>
+							MELSEC 시리즈는 항상 한 차원 더 높은 수준에서 <br>
+							 고객의 시스템 요구를 충족하며, <br>
+							 풍부한 라인업과 향상된 네트워크 시스템을 <br>
+							 제공하는 솔루션입니다. <br>
+							 MELSEC 시리즈는 향상된 제어 시스템을 제공할 수 있는 <br>
+							 탁월한 역량을 보유하고 있습니다. <br>
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/controller.png" alt="컨트롤러 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-3">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>드라이브제품</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-4">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>GOT · SCADA</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-5">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>산업용 로봇</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-6">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>저압기기</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-7">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>고압기기</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-8">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>전력 모니터링 제품</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel" id="panel1-9">
+				<div class="flex">
+					<div class="product_des">
+						<a href="javascrpit:void(0)">
+						<h2>가공기</h2>
+						<h4>산업용 PC MELIPC</h4>
+						<p>
+							미쓰비시 전기 산업용 PC MELIPC 시리즈는 <br>
+							 범용 어플리케이션을 사용하는 강력한 기능과 <br>
+							 유연성으로 엣지 컴퓨팅, IT 시스템 조정 및 기기 제어에 <br>
+							 새로운 가치를 제공합니다.
+						</p>
+						</a>
+					</div>
+					<div class="product_img">
+						<a href="javascrpit:void(0)">
+						<img src="./img/51902_20131002170319.jpg" alt="드라이브제품 사진">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product_menu">
+			<ul class="tabs">
+				<li><a href="#panel1-1" class="on">엣지컴퓨팅제품</a></li>
+				<li><a href="#panel1-2">컨트롤러</a></li>
+				<li><a href="#panel1-3">드라이브제품</a></li>
+				<li><a href="#panel1-4">GOT · SCADA</a></li>
+				<li><a href="#panel1-5">산업용 로봇</a></li>
+				<li><a href="#panel1-6">저압기기</a></li>
+				<li><a href="#panel1-7">고압기기</a></li>
+				<li><a href="#panel1-8">전력 모니터링 제품</a></li>
+				<li><a href="#panel1-9">가공기</a></li>
+			</ul>
+		</div>
+		</article>
+	</div>
+	</section>
+	<section id="sect3">
+	<div class="inner flex">
+		<div class="recruit flex">
+			<a href="javascrpit:void(0)">
+			<h4>인재상</h4>
+			<div class="roll_before">
+				<img src="./img/carbon_user-identification.png" alt="인재상 아이콘">
+				<p>
+					 기술혁신에 공헌하는 <br>
+					 인재를 찾습니다.
+				</p>
+			</div>
+			<p class="hidden">
+				실패를 두려워하지 않고 <br>
+				 보다 멋진 내일을 위해 도전하는 사람
+			</p>
+			<p>
+				<span>바로가기</span>
+			</p>
+			</a>
+		</div>
+		<div class="recruit flex">
+			<a href="javascrpit:void(0)">
+			<h4>인사제도</h4>
+			<div class="roll_before">
+				<img src="./img/carbon_order-details.svg" alt="인사제도 아이콘">
+				<p>
+					 팀웍을 바탕으로 한 개인의 <br>
+					 창의와 자율을 존중합니다.
+				</p>
+			</div>
+			<p class="hidden">
+				개인의 목표를 설정하여 <br>
+				 조직과 개인의 목표를 실현
+			</p>
+			<p>
+				<span>바로가기</span>
+			</p>
+			</a>
+		</div>
+		<div class="recruit flex">
+			<a href="javascrpit:void(0)">
+			<h4>채용정보</h4>
+			<div class="roll_before">
+				<img src="./img/carbon_license.svg" alt="채용정보 아이콘">
+				<p>
+					 미래를 창조하는 <br>
+					 예비FA전문가를 기다립니다.
+				</p>
+			</div>
+			<p class="hidden">
+				 세계를 선도하는 제조 기업 <br>
+				 더 멋진 내일을 개척하는 인재
+			</p>
+			<p>
+				<span>바로가기</span>
+			</p>
+			</a>
+		</div>
+	</div>
+	</section>
+	<section id="sect4">
+	<div class="inner">
+		<div class="flex">
+			<h3>홍보센터</h3>
+			<p>
+				<a href="javascrpit:void(0)">더보기</a>
+			</p>
+		</div>
+		<div class="flex promo_center">
+			<div>
+				<a href="javascrpit:void(0)">
+				<div>
+					<img src="./img/jonny-gios-8wKTIZ1KEzY-unsplash.png" alt="전시회">
+				</div>
+				<h4>전시회</h4>
+				<p>
+					미쓰비시 전기가 참가한 <br>
+					 전시회 정보를 게재하고 있습니다.
+				</p>
+				</a>
+			</div>
+			<div>
+				<a href="javascrpit:void(0)">
+				<div>
+					<img src="./img/6090_5479_042.jpg" alt="세미나">
+				</div>
+				<h4>세미나</h4>
+				<p>
+					미쓰비시전기의 FA기술에 관한 <br>
+					 세미나를 소개합니다.
+				</p>
+				</a>
+			</div>
+			<div>
+				<a href="javascrpit:void(0)">
+				<div>
+					<img src="./img/noticeme.png" alt="공지사항">
+				</div>
+				<h4>공지사항</h4>
+				<p>
+					미쓰비시 전기의 중요 공지사항을 <br>
+					 전달합니다.
+				</p>
+				</a>
+			</div>
+			<div>
+				<a href="javascrpit:void(0)">
+				<div>
+					<img src="./img/press.png" alt="보도자료">
+				</div>
+				<h4>보도자료</h4>
+				<p>
+					미쓰비시전기에 대한 보도자료입니다.
+				</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="sect5">
+	<div class="inner">
+		<h3>교육센터</h3>
+		<div class="center slider edu">
+			<a href="javascrpit:void(0)">
+			<img src="./img/junggi.png" alt="정기교육">
+			<div>
+			</div>
+			<h4>정기교육</h4>
+			<p>
+				정기교육은 기초지식에서 응용기술의 습득까지 <br>
+				 고객의 요구에 따라 필요한 코스를 수강하실 수 있으며, <br>
+				 최신교육설비를 사용하여 <br>
+				 실습위주의 교육을 고객에게 제공하고 있습니다.
+			</p>
+			</a>
+			<a href="javascrpit:void(0)">
+			<img src="./img/fitedu.png" alt="맞춤식 교육">
+			<div>
+			</div>
+			<h4>맞춤식 교육</h4>
+			<p>
+				고객의 요구에 따른 맞춤식 교육(ROBOT, CNC, FA)을 <br>
+				 실시하고 있사오니 상세한 내용은 <br>
+				 맞춤식교육 상담처로 연락부탁드립니다.
+			</p>
+			</a>
+			<a href="javascrpit:void(0)">
+			<img src="./img/elearning.png" alt="이러닝">
+			<div>
+			</div>
+			<h4>이러닝</h4>
+			<p>
+				무료 교육으로 비용이 전혀 들지 않으며, <br>
+				 자신의 수준과 관심에 맞는 학습을 <br>
+				 자기주도적으로 수행할 수 있습니다.
+			</p>
+			</a>
+			<a href="javascrpit:void(0)">
+			<img src="./img/myedu.png" alt="나에게 맞는 강좌 찾기">
+			<div>
+			</div>
+			<h4>나에게 맞는 강좌 찾기</h4>
+			<p>
+				질문을 통해 자신에게 필요한 이러닝 강좌를 <br>
+				 쉽게 선택할 수 있습니다.
+			</p>
+			</a>
+			<a href="javascrpit:void(0)">
+			<img src="./img/eduroomfind.png" alt="교육장 안내">
+			<div>
+			</div>
+			<h4>교육장 안내</h4>
+			<p>
+				교육장의 위치와 오는 방법을 알 수 있습니다.
+			</p>
+			</a>
+			<a href="javascrpit:void(0)">
+			<img src="./img/edufaq.png" alt="교육 FAQㄴ">
+			<div>
+			</div>
+			<h4>교육 FAQ</h4>
+			<p>
+				교육에 관하여 자주묻는 질문에 대한 답변을 얻을 수 있습니다.
+			</p>
+			</a>
+		</div>
+	</div>
+	</section>
+	<section id="sect6">
+	<div class="inner flex">
+		<div class="ascenter">
+			<h3>A/S 센터</h3>
+			<div class="flex">
+				<a href="javascrpit:void(0)" class="flex"><img src="./img/ascenter.png" alt="미쓰비시 as센터현황">
+				<div>
+					<p>
+						한국 미쓰비시전기 오토메이션<br>
+						<span>A/S 센터</span>
+					</p>
+					<p>
+						클릭 시 A/S 센터 안내로 <br>
+						 이동합니다.
+					</p>
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class="news">
+			<h3>새소식</h3>
+			<ul>
+				<li>
+				<a href="javascrpit:void(0)">8월 29일 KPCA2022 국제PCB 및 반도체패키징산업전 </a>
+				<p class="date">
+					<span>8월 </span> 27
+				</p>
+				</li>
+				<li>
+				<a href="javascrpit:void(0)">온라인 교육 2022년 8월 프로그램 안내</a>
+				<p class="date">
+					<span>8월 </span> 05
+				</p>
+				</li>
+				<li>
+				<a href="javascrpit:void(0)">[인더스트리뉴스] 한국미쓰비시전기오토메이션, “에너지 절감과 동시에 생산성 향상”</a>
+				<p class="date">
+					<span>7월 </span> 07
+				</p>
+				</li>
+				<li>
+				<a href="javascrpit:void(0)">온라인 교육 2022년 7월 프로그램 안내</a>
+				<p class="date">
+					<span>6월 </span> 30
+				</p>
+				</li>
+			</ul>
+		</div>
+		<!--news-->
+	</div>
+	</section>
+	<footer id="footer">
+	<div class="inner flex">
+		<h1 class="bot_log"><a href="./index.html"><img src="img/logo.png" alt="로고"></a></h1>
+		<div class="foot">
+			<div class="foot_top">
+				<div class="foot_top_txt">
+					<p>
+						<a href="javascrpit:void(0)">이용약관</a>
+					</p>
+					<p>
+						<a href="javascrpit:void(0)">이메일무단수집거부</a>
+					</p>
+					<p>
+						<a href="javascrpit:void(0)">개인정보취급방침</a>
+					</p>
+				</div>
+				<div class="foot_top_icon">
+					<a href="javascrpit:void(0)">
+					<p class="foot_icon">
+						<img src="img/Rectangle_33.svg" alt="CLPA로고">
+					</p>
+					</a>
+					<a href="javascrpit:void(0)">
+					<p class="foot_icon">
+						<img src="img/kakaotalk_logo.png" alt="미쓰비시전기카카오톡로고">
+					</p>
+					</a>
+					<a href="javascrpit:void(0)">
+					<p class="foot_icon">
+						<img src="img/youtu.be.png" alt="미쓰비시전기유튜브">
+					</p>
+					</a>
+				</div>
+			</div>
+			<div class="foot_bot">
+				<div class="flex">
+					<p>
+						한국미쓰비시전기오토메이션(주)<span></span>
+					</p>
+					<p>
+						사업자 등록번호 109-81-48163 <span></span>
+					</p>
+					<p>
+						본사:서울특별시 강서구 가양동 1480-6
+					</p>
+				</div>
+				<p>
+					서울특별시 강서구 양천로 401, 에이동 7~9층(가양동, 강서한강자이타워) 대표전화: 3660-9582
+				</p>
+				<p class="copy">
+					Copyright &copy; 2022 . All rights reserved.
+				</p>
+				<div class="abs flex">
+					<p>
+						FA상담센터
+					</p>
+					<p class="num">
+						 1566-8495
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="chat_bot">
+			<img src="./img/fbanner_kakaochatbot_v2.png" alt="카카오톡 챗봇 QR코드">
+		</div>
+	</div>
+	</footer>
+	<div class="quick_btn">
+		<p>
+			<span class="open">+</span>
+		</p>
+		<p class="btn1">
+			<a href="javascrpit:void(0)" class="top">TOP</a>
+		</p>
+		<p class="btn2">
+			<a href="javascrpit:void(0)"> FA <br>
+			 센터</a>
+		</p>
+		<p class="btn3">
+			<a href="javascrpit:void(0)">FA <br>
+			 특약점</a>
+		</p>
+	</div>
+	<div id="popupDiv" class="popup">
+		<div class="contents" id="popup_1">
+			<a href="https://kr.mitsubishielectric.com/fa/ko/exhibition.do?act=exhibitionIndex&seq=77&email=&exhibition_id=&user_id=&num=0&external=&work_gubun=1" target="_blank"><img src="./img/popupimg1.png" alt="배너 사진"></a>
+		</div>
+		<div class="footer-td flex">
+			<a href="#" class="btn-close">오늘하루열지않기</a>
+			<a href="javascrpit:void(0)" class="close-modal">팝업닫기</a>
+		</div>
+	</div>
+</div>
 </body>
 </html>
