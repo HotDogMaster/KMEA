@@ -456,10 +456,6 @@ section {
 	}
 }
 @media all and (max-width:533px) {
-	#popupDiv {
-		left:30px;
-		max-width:80%;
-	}
 	#sect3 .recruit a {
 		display:block;
 		position:relative;
