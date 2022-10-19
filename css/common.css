@@ -235,6 +235,12 @@ button {
 	position:relative;
 	font-weight:400;
 	color:#333333;
+	height: 105px;
+	line-height: 105px;
+}
+#header.scroll .gnb>li>a{
+	height: 60px;
+	line-height: 60px;
 }
 #header .gnb>li>a:hover {
 	color:#e60000;
@@ -248,13 +254,13 @@ button {
 	background-color:#e60000;
 	position:absolute;
 	left:0;
-	bottom: -6px;
+	bottom: -2px;
     border-radius: 10px;
 	transform:scaleX(0);
 	z-index:100;
 }
 #header.scroll .gnb>li>a::after{
-	bottom: -2px;
+	bottom: 8px;
 }
 #header .gnb>li>a:hover::after {
 	transform:scaleX(0.7);
