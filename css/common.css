@@ -44,7 +44,7 @@ svg,img,embed,object,iframe,fieldset {
 }
 hr {
 	clear:both;
-	border:none
+	border:none;
 }
 a {
 	color:inherit;
@@ -238,10 +238,6 @@ button {
 	height: 105px;
 	line-height: 105px;
 }
-#header.scroll .gnb>li>a{
-	height: 60px;
-	line-height: 60px;
-}
 #header .gnb>li>a:hover {
 	color:#e60000;
 	font-weight:bold;
@@ -258,9 +254,6 @@ button {
     border-radius: 10px;
 	transform:scaleX(0);
 	z-index:100;
-}
-#header.scroll .gnb>li>a::after{
-	bottom: 8px;
 }
 #header .gnb>li>a:hover::after {
 	transform:scaleX(0.7);
@@ -308,7 +301,6 @@ button {
 #header .gnb:hover::before {
 	height:475px;
 	padding:15px 0;
-	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 }
 #header .nav_btn button,#header .nav_btn a {
@@ -397,9 +389,6 @@ td input {
 	top:-30px;
 	right:0;
 }
-#header.scroll #pop_up .pop_search .x_btn {
-	top:0;
-}
 #header .nav_btn .recent {
 	display:none;
 	color:#fff;
@@ -409,9 +398,6 @@ td input {
 	transform:translate(-50%);
 	font-size:1.125em;
 	width:500px;
-}
-#header.scroll .nav_btn .recent {
-	bottom:60px;
 }
 #header .nav_btn .recent p a {
 	font-size:12px;
@@ -427,9 +413,7 @@ td input {
 	top:105px;
 	left:0;
 }
-#header.scroll .backg {
-	top:54px;
-}
+
 #header .login_form {
 	display:none;
 	width:320px;
@@ -479,14 +463,20 @@ td input {
 	left:-30px;
 	line-height:2em;
 }
+#header .depth2 .now a {
+	color:#111;
+}
+#header.scroll .nav_btn .recent {
+	bottom:60px;
+}
+#header.scroll .backg {
+	top:54px;
+}
 #header.scroll .language .lang_menu {
 	top:54px;
 }
 #header.scroll .logo {
 	line-height:45px !important;
-}
-#header .depth2 .now a {
-	color:#111;
 }
 #header.scroll h1 {
 	padding:0
@@ -500,8 +490,19 @@ td input {
 #header.scroll .hinner,#header.scroll .mainMenu,#header.scroll .nav_btn {
 	line-height:50px;
 }
+#header.scroll .gnb>li>a::after{
+	bottom: -1px;
+}
+#header.scroll .gnb>li>a{
+	height: 60px;
+	line-height: 60px;
+}
 #header.scroll .gnb::before {
 	top:50px;
+}
+
+#header.scroll #pop_up .pop_search .x_btn {
+	top:0;
 }
 #header.scroll #pop_up {
 	top:54px;
@@ -820,11 +821,14 @@ label{
 	#footer .inner .foot .foot_bot .abs {
 		position:relative;
 	}
-}
-@media all and (max-width:1024px) {
+	#header .gnb:hover .depth2 {
+		height:65vh;
+	}
 	#header .gnb .depth2 a {
 		font-size: 0.9em;
 	}
+}
+@media all and (max-width:1024px) {
 	.hinner {
 		padding:0 10px;
 	}
